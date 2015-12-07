@@ -1,0 +1,32 @@
+﻿VS filter: testpath:TestAssembly:QA_WORKS_ASSESSMENT/Feature:QA_Works_Contact_Us_Page/Scenario:Valid+Submision
+Appdomain Disposed
+Test Suite Dump
+#0: QA_WORKS_ASSESSMENT/Default - 
+#1: Default - 
+#2: QA_WORKS_ASSESSMENT - 
+#3: QA_Works_Contact_Us_Page - 
+#4: Valid Submision - TestAssembly:QA_WORKS_ASSESSMENT/Feature:QA_Works_Contact_Us_Page/Scenario:Valid+Submision
+End: Test Suite Dump
+Scheduler: considering #4 for thread #0
+Scheduler: using #4 for thread #0
+Test #4 is scheduled for thread #0
+Thread #0: creating new test thread executor for QA_WORKS_ASSESSMENT, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+Loading SpecRun type 'TechTalk.SpecRun.Framework.TestAssemblyExecutor' from: C:\Users\Ryan\AppData\Local\Temp\VisualStudioTestExplorerExtensions\SpecRun.Runner.1.2.0\tools\TechTalk.SpecRun.Framework.Executor.dll
+Test #4/0 is started on thread #0
+B:Given I am on the QAWorks Staging Site
+T:done: QA_Works_Contact_Us_PageSteps.GivenIAmOnTheQAWorksStagingSite() (3.2s)
+B:When I navigate to the Contact Us page
+T:done: QA_Works_Contact_Us_PageSteps.WhenINavigateToTheContactUsPage() (0.5s)
+B:Then I should be able to contact QAWorks with the following information
+B:  --- table step argument ---
+B:  | name          | email                | message                                   |
+B:  | j.Bloggs    6 | j.Bloggs@qaworks.com | please contact me I want to find out more |
+T:done: QA_Works_Contact_Us_PageSteps.ThenIShouldBeAbleToContactQAWorksWithTheFollowingInformation(<table>) (7.4s)
+Test #4 is finished on thread #0 as Succeeded within 36.4204976 seconds
+Appdomain Disposed
+Total: 1
+Succeeded: 1
+Ignored: 0
+Pending: 0
+Skipped: 0
+Failed: 0
